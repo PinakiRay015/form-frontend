@@ -2,8 +2,8 @@ import React from "react";
 import brandLogo from "../assets/logo.png";
 const Navbar = () => {
   return (
-    <div className="max-w-screen-2xl shadow drop-shadow-2xl">
-      <div className="flex items-center justify-between gap-4 max-w-screen-xl m-auto ">
+    <div className="max-w-screen-2xl shadow drop-shadow-2xl border ">
+      <div className="flex items-center justify-between gap-4 max-w-[72rem] m-auto ">
         <div className="flex items-center gap-3 text-slate-800">
         <div className="flex items-center">
           <img className="h-12" src={brandLogo} alt="" />

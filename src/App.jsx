@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div className='bg-[#ffffff] h-screen'>
       <Navbar/>
-      <div className='flex justify-between max-w-screen-xl m-auto mt-[5rem]'>
+      <div className='flex justify-between max-w-[72rem] m-auto mt-[5rem]'>
         <Hero/>
         <Form/>
       </div>
